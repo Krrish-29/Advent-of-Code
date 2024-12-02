@@ -39,7 +39,7 @@ void sort(int *arr,int left,int right){
 }
 int main(){
     FILE*ptr;
-    ptr=fopen("New Text Document.txt","r");
+    ptr=fopen("Day_1.txt","r");
     int arr1[1000],arr2[1000];
     for(int i=0;i<1000;i++){
         fscanf(ptr,"%d",&arr1[i]);
